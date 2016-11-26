@@ -1,0 +1,180 @@
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+.hero {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url("../images/header_bg.jpg");
+	background-position: center;
+	overflow: hidden;
+	height: 700px;
+	padding-top: 30px;
+}
+
+a {
+	margin: 0px 700px 300px 100px;
+	text-decoration: none;
+	font-weight: 800;
+	font-size: 48px;
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+	font-weight: 700;
+	font-size: 48px;
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	margin-top: 130px;
+	text-align: center;
+}
+
+.button-one { 
+	background-color: #f9e42e;
+	text-align: center;
+	font-size: 28px;
+	font-weight: 800;
+	padding: 10px 50px 10px 50px;
+	border-radius: 5px;
+	margin: 100px 450px 500px 525px;
+}
+
+.middle {
+	background-color: #f0efef;
+	height: 500px;
+	padding-top: 80px;
+}
+
+h2 {
+	font-size: 40px;
+	font-weight: 600;
+	color: #000;
+	font-family: 'Open Sans', sans-serif;
+	margin-left: 200px;
+}
+
+p {
+	font-weight: 300;
+	font-size: 26px;
+	font-family: 'Open Sans', sans-serif;
+	margin-left: 200px;
+	margin-top: 30px;
+	line-height: 30px;
+}
+
+ul {
+	font-weight: 300;
+	font-size: 26px;
+	font-family: 'Open Sans', sans-serif;
+	margin-left: 280px;
+	margin-top: 45px;
+	line-height: 40px;
+}
+
+.waves {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url("../images/testimonial_bg.jpg");
+	background-position: center;
+	overflow: hidden;
+	padding-top: 35px;
+	height: 280px;
+}
+
+.story {
+font-weight: 300;
+	font-style: italic;
+	color: #fff;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	width: 35%;
+	margin-left: 420px;
+	line-height: 35px;
+}
+
+h3 {
+	color: #fff;
+	font-weight: 600;
+	font-size: 36px;
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	margin-top: 10px;
+}
+
+.lemon {
+	background-color: #f9e42e;
+	overflow: hidden;
+	padding-top: 20px;
+	height: 70px;
+}
+
+.button-two {
+	background-color: #033048;
+	color: #fff;
+	text-align: center;
+	font-size: 24px;
+	font-weight: 800;
+	margin-left: 510px;
+	border-radius: 5px;
+	padding: 10px 50px 10px 50px;
+}
+
+#footer {
+	background-color: #121212;
+	overflow: hidden;
+	height: 270px;
+	padding-top: 30px;
+}
+
+.endnote {
+	font-size: 48px;
+	font-weight: 800;
+	text-align: center;
+	color: #f9e42e;
+	margin-right: 190px;
+}
+
+.icons {
+	float: right;
+	margin-bottom: 50px;
+}
+
+.twitter {
+	margin-left: 530px;
+	margin-top: 50px;
+	margin-right: 35px;
+	float: left;
+}
+
+.facebook {
+	float: left;
+	margin-right: 585px;
+	margin-top: 50px;
+}
+
+.copyright {
+	font-weight: 600;
+	font-size: 18px;
+	color: #fff;
+	text-align: center;
+}
+
+/*Notes:
+to style link:
+a:link {color:#;}
+a:hover{:;}
+*/
